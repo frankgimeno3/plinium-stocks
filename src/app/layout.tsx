@@ -21,7 +21,7 @@ export default function RootLayout({
         <div className="flex flex-row w-screen h-full">
         <NavWebLogged/>
 
-        <div className="bg-gray-200 w-full h-full">
+        <div className="bg-gray-100 w-full h-full">
         {children}
         </div>
 
