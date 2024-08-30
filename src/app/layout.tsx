@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import NavWebLogged from "./components/NavWebLogged";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="flex flex-row w-screen h-full">
+        <NavWebLogged/>
+
+        <div className="bg-gray-200 w-full h-full">
+        {children}
+        </div>
+
+        </div>
+        </body>
     </html>
   );
 }
