@@ -8,7 +8,7 @@ const StockValue: FC<StockValueProps> = ({ }) => {
   return (
     <div className='flex flex-col flex-1 p-5 px-8 bg-white rounded-lg border shadow-lg mx-3'>
       <div className='flex flex-row pb-6 justify-between items-center py-auto'>
-      <p className=''>Supplier Performance</p>
+      <p className=''>Stock Value</p>
         <div>
           <svg data-id="81" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
             fill="none" stroke="gray" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
