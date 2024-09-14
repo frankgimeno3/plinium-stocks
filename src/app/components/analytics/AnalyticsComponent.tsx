@@ -4,11 +4,11 @@ import StockMovement from './widgets/StockMovement';
 import BestSelling from './widgets/BestSelling';
 import SupplierPerformance from './widgets/SupplierPerformance';
 
-interface AnalyticsProps {
+interface AnalyticsComponentProps {
   
 }
 
-const Analytics: FC<AnalyticsProps> = ({ }) => {
+const AnalyticsComponent: FC<AnalyticsComponentProps> = ({ }) => {
   return (
 <div className="flex flex-wrap w-full mx-auto justify-between">
        <StockValue/>
@@ -18,4 +18,4 @@ const Analytics: FC<AnalyticsProps> = ({ }) => {
        </div>  );
 };
 
-export default Analytics;
+export default AnalyticsComponent;
