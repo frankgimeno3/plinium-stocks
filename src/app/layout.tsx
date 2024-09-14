@@ -19,14 +19,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="flex flex-row w-screen h-full">
-        <NavWebLogged/>
+          <NavWebLogged selectedElement={"Dashboard"} />
 
-        <div className="bg-gray-100 w-full h-full">
-        {children}
-        </div>
+          <div className="bg-gray-100 w-full h-full">
+            {children}
+          </div>
 
         </div>
-        </body>
+      </body>
     </html>
   );
 }
