@@ -7,16 +7,17 @@ import Search from '@/app/components/Search';
 import NavWebLogged from '@/app/components/NavWebLogged';
 import AnalyticsComponent from '@/app/components/analytics/AnalyticsComponent';
 
-interface AnalyticsProps {
+interface InventoryProps {
 
 }
 
-const Analytics: FC<AnalyticsProps> = ({ }) => {
+const Inventory: FC<InventoryProps> = ({ }) => {
     return (
 
 
         <>
-            <NavWebLogged currentPage="analytics" />
+            <NavWebLogged currentPage="inventory" />
+
 
             <div className="bg-gray-100 w-full h-full">
                 <main className="flex min-h-screen flex-col   text-gray-700 py-12 p-12 w-full">
@@ -26,11 +27,7 @@ const Analytics: FC<AnalyticsProps> = ({ }) => {
             </div>
         </>
 
-
-
-
-
     );
 };
 
-export default Analytics;
+export default Inventory;
