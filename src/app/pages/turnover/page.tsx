@@ -13,18 +13,16 @@ interface TurnoverProps {
 
 const Turnover: FC<TurnoverProps> = ({ }) => {
     return (
+        <div className='flex flex-row'>
+            <NavWebLogged currentPage="turnover" />
 
-   
-        <>
-        <NavWebLogged currentPage="turnover" />
-
-        <div className="bg-gray-100 w-full h-full">
+            <div className="bg-gray-100 w-full h-full">
                 <main className="flex min-h-screen flex-col   text-gray-700 py-12 p-12 w-full">
                     <SearchBar />
                     <AnalyticsComponent />
-                </main>   
-                 </div>
-    </>
+                </main>
+            </div>
+        </div>
 
     );
 };

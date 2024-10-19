@@ -14,8 +14,7 @@ interface PeopleHubProps {
 const PeopleHub: FC<PeopleHubProps> = ({ }) => {
     return (
 
-
-        <>
+        <div className='flex flex-row'>
             <NavWebLogged currentPage="peoplehub" />
 
             <div className="bg-gray-100 w-full h-full">
@@ -24,7 +23,7 @@ const PeopleHub: FC<PeopleHubProps> = ({ }) => {
                     <AnalyticsComponent />
                 </main>
             </div>
-        </>
+        </div>
 
     );
 };

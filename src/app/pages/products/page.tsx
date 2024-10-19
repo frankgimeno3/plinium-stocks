@@ -15,16 +15,16 @@ const Products: FC<ProductsProps> = ({ }) => {
     return (
 
 
-        <>
+        <div className='flex flex-row'>
             <NavWebLogged currentPage="products" />
 
             <div className="bg-gray-100 w-full h-full">
                 <main className="flex min-h-screen flex-col   text-gray-700 py-12 p-12 w-full">
                     <SearchBar />
-                    <AnalyticsComponent />
+                    <p className='p-5 text-2xl'>Products</p>
                 </main>
             </div>
-        </>
+        </div>
 
     );
 };

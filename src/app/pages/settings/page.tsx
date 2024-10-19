@@ -13,7 +13,8 @@ interface SettingsProps {
 
 const Settings: FC<SettingsProps> = ({ }) => {
     return ( 
-        <>
+        <div className='flex flex-row'>
+
             <NavWebLogged currentPage="settings" />
 
             <div className="bg-gray-100 w-full h-full">
@@ -22,7 +23,7 @@ const Settings: FC<SettingsProps> = ({ }) => {
                    <p>Settings content</p>
                 </main>
             </div>
-        </> 
+        </div> 
     );
 };
 

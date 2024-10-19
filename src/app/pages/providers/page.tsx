@@ -13,7 +13,7 @@ interface ProvidersProps {
 
 const Providers: FC<ProvidersProps> = ({ }) => {
     return (
-          <>
+        <div className='flex flex-row'>
             <NavWebLogged currentPage="providers" />
 
             <div className="bg-gray-100 w-full h-full">
@@ -23,7 +23,7 @@ const Providers: FC<ProvidersProps> = ({ }) => {
                 </main>
             </div>
 
-        </>
+        </div>
     );
 };
 
