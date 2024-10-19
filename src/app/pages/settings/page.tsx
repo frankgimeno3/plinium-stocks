@@ -19,7 +19,7 @@ const Settings: FC<SettingsProps> = ({ }) => {
             <div className="bg-gray-100 w-full h-full">
                 <main className="flex min-h-screen flex-col   text-gray-700 py-12 p-12 w-full">
                     <SearchBarBar />
-                    <AnalyticsComponent />
+                   <p>Settings content</p>
                 </main>
             </div>
         </> 
